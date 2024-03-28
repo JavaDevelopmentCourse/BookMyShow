@@ -28,8 +28,8 @@ public class MovieController {
     {
         try {
             response.sendRedirect("/swagger-ui.html");
-        } catch (IOException exception) {
-            throw new RuntimeException(exception);
+        } catch (IOException exception123) {
+            throw new RuntimeException(exception123);
         }
     }
     @GetMapping("/api/v1/movies")
